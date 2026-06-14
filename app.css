@@ -1095,6 +1095,10 @@ body {
   .mobile-hamburger { display: none !important; }
   .mobile-overlay { display: none !important; }
 
+  /* SHOW mobile header + bottom nav */
+  .mobile-top-bar { display: flex !important; }
+  .bottom-nav { display: block !important; }
+
   /* Space for top bar + bottom nav */
   .content-area { margin-left: 0; padding-top: 56px; padding-bottom: 64px; }
 
