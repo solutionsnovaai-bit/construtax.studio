@@ -102,7 +102,7 @@ function App() {
             key={isDark ? 'dark' : 'light'}
             src={isDark ? 'assets/logo-dark.png' : 'assets/logo-light.png'}
             alt="CONSTRUTAX"
-            style={{ height: 26, width: 'auto' }}
+            style={{ height: 36, width: 'auto' }}
           />
           <button
             onClick={toggleTheme}
